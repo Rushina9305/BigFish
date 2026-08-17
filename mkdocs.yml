@@ -1,0 +1,87 @@
+site_name: BigFish Documentation
+site_description: Official BigFish Documentation
+site_author: BigFish
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  favicon: assets/logo.png
+
+nav:
+  - Home: index.md
+  - About: About.md
+  - Getting Started: getting-started.md
+  - Installation: installation.md
+  - Login: login.md
+  - Activation: activation.md
+  - Troubleshooting:
+      - Troubleshooting Home: troubleshooting/index.md
+      - Microphone Issues: troubleshooting/microphone.md
+      - Update Errors: troubleshooting/update-errors.md
+  - 404: 404.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - fenced_code
+
+
+theme:
+  name: mkdocs
+
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
